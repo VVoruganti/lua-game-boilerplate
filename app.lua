@@ -1,8 +1,13 @@
 local lapis = require("lapis")
 local app = lapis.Application()
 
-app:get("/", function()
+-- root path
+app:get("/", function(self)
   return "Welcome to Lapis " .. require("lapis.version")
-end)
+end)-- root path
 
+
+-- Define 
+app:match("")
+ 
 return app
