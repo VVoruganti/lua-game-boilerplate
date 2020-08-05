@@ -1,5 +1,6 @@
 local lapis = require("lapis")
 local app = lapis.Application()
+local config = require("lapis.config").get()
 
 -- root path
 app:get("/", function(self)

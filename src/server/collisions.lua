@@ -1,0 +1,3 @@
+local collisions = {}
+
+return collisions
